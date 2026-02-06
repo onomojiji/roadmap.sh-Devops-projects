@@ -7,7 +7,7 @@
 5. [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup) ✅
 6. Static Site Server
 7. Basic DNS Setup
-8. Simple Monitoring
+8. [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard) ✅
 9. [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service) ✅
 10. Basic Dockerfile
 11. EC2 Instance

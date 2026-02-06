@@ -6,6 +6,17 @@ LOG_DIR=/var/log/
 # Backup logs directory
 BACKUP_DIR=~/backup/logs/
 
+# check root running command
+is_root(){
+    # Check if script is run as root
+    if [ "$EUID" -ne 0 ]; then 
+        echo -e "${RED}Error: This script must be run as root${NC}"
+        echo "Usage: sudo ./log-archive-tool.sh"
+        exit 1
+    fi
+}
+
+# check directories existence
 get_or_create_dirs(){
     # check if the sytem logs directory exist
     if [ ! -d "$LOG_DIR" ]; then
