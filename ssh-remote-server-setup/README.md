@@ -1,7 +1,7 @@
 
-# Roadmap.sh-SSH-Remote-Server-Setup 
+## Roadmap.sh-SSH-Remote-Server-Setup 
 
-# Key steps to setup a ssh remote connection with public key 
+> Key steps to setup a ssh remote connection with public key 
 
 <https://roadmap.sh/projects/ssh-remote-server-setup>
 
