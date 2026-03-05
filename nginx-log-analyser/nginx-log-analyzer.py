@@ -75,7 +75,7 @@ def analyze_logs(bucket: dict) -> dict:
             bucket[value] = 1
 
     # Loop the logs_dict and count the occurence of each category
-    for log in logs.values():
+    for log in logs.values(): # type: ignore
         count(stats["top_ip"], log.get("ip_address", ""))
         count(stats["top_request_path"], log.get("request_method", "").split()[0])
         count(stats["top_status_code"], log.get("request_status_code", ""))
@@ -120,7 +120,7 @@ def print_statistics(stats: dict):
 logs = save_logs_to_dict()
 
 # 2. Analyze the
-analyzed_logs = analyze_logs(logs)
+analyzed_logs = analyze_logs(logs) # type: ignore
 
 # 3. Sort logs and keep onlys the 5th
 sorted_logs = sort_by_count_desc(analyzed_logs)
