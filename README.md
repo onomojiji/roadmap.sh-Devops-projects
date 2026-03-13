@@ -9,7 +9,7 @@
 7. Basic DNS Setup
 8. [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard) ✅
 9. [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service) ✅
-10. Basic Dockerfile
+10. [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile) ✅
 11. EC2 Instance
 12. Pomodoro Timer
 13. Configuration Management
